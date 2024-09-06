@@ -1,0 +1,108 @@
+.col {
+  width: 445px;
+  height: 100%;
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 10px;
+}
+.col h1 {
+  color: white;
+  padding-left: 10px;
+  background-color: rgb(85 150 245);
+  margin: 20px 0px;
+}
+.col1 {
+  background-color: #fcf7e9;
+}
+.task-container {
+  display: flex;
+  justify-content: space-between;
+}
+.dashboard {
+  padding: 0 2.5px;
+  background-color: rgba(255, 255, 255, 0.5);
+  height: 100vh;
+}
+.item {
+  width: 100%;
+  height: 200px;
+  background-color: rgb(210 230 250);
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 10px;
+}
+.item h4 {
+  font-size: 20px;
+}
+.delete-btn {
+  background-color: rgb(245 100 100);
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+.edit-btn {
+  background-color: rgb(50 115 245);
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-right: 10px;
+  border: none;
+  color: white;
+}
+.detail-btn {
+  border-radius: 5px;
+  padding: 5px 10px;
+  border: none;
+  color: white;
+  background-color: rgb(50 115 245);
+}
+.search-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: greenyellow;
+  padding: 10px 10px;
+}
+.search-div input {
+  padding: 10px 10px;
+}
+.task-btn {
+  color: white;
+  margin: 15px 10px;
+  padding: 5px 15px;
+  border-radius: 8px;
+  border: none;
+  background-color: rgb(50 115 245);
+  font-size: 18px;
+}
+/*--------------------Add task */
+.task-container {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.task-form {
+  padding: 10px 20px;
+  display: flex;
+  border-radius: 10px;
+  flex-direction: column;
+  border: 2px solid black;
+  width: 500px;
+  height: 500px;
+}
+.task-form h1 {
+  text-align: center;
+  font-weight: 600;
+}
+.add-task-btn {
+  padding: 10px;
+  font-size: 20px;
+  margin: 30px 20px;
+  background-color: rgb(50 115 245);
+  color: white;
+  border: none;
+  border-radius: 10px;
+}
